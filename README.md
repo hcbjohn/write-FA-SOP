@@ -27,6 +27,9 @@
 安装技能https://github.com/hcbjohn/write-FA-SOP
 ```
 
+<img width="799" height="351" alt="image" src="https://github.com/user-attachments/assets/1044eac7-dcd9-4475-b740-3c99b9763be3" />
+
+
 剩下的操作，AI会自动完成。安装时 AI 助手会**直接从 GitHub 下载技能文件包**（自动获取仓库压缩包、解压并导入技能），**不需要本机安装 git 命令，也不需要你执行任何命令行操作**。
 
 > 若你的 AI 助手软件支持"导入本地技能文件夹"，也可以手动下载仓库 ZIP（GitHub 页面 → Code → Download ZIP）解压后直接导入，效果相同。
