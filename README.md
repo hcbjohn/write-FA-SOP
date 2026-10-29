@@ -26,7 +26,10 @@
 ```typescript
 安装技能https://github.com/hcbjohn/write-FA-SOP.git
 ```
-剩下的操作，AI会自动完成。
+剩下的操作，AI会自动完成。结果如下：
+
+<img width="799" height="351" alt="image" src="https://github.com/user-attachments/assets/1044eac7-dcd9-4475-b740-3c99b9763be3" />
+
 
 ## 使用  
 
