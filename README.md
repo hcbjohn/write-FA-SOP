@@ -100,9 +100,25 @@ write-FA-SOP/
     └── ocr_pdf.py           # PDF 页面渲染脚本（乱码时使用，依赖自动安装，零配置）
 ```
 
-## 依赖与零配置保证
+## 依赖
 
-**对最终用户零配置**：使用本技能的客户只需安装/打开 AI 助手软件（如千问、千问办公、豆包办公等），无需具备任何编程与系统配置能力。
+本Skill中的ocr脚本依赖最新版PowerShell。请安装winget版或msi安装包；请勿使用Microsoft Store安装，可能会遇到权限问题。
+
+### winget安装方法
+
+打开cmd或终端，输入以下命令后回车
+
+```typescript
+winget install microsoft.powershell
+```
+
+### 手动下载安装包
+
+[PowerShell](https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/PowerShell-7.6.6-win-x64.msi)
+
+### 其他
+
+使用本技能的客户只需安装/打开 AI 助手软件（如千问、千问办公、豆包办公等），无需具备任何编程与系统配置能力。
 
 -   乱码 OCR 路径由 AI 助手在本地自动执行 `scripts/ocr_pdf.py`：脚本运行时会自动检测并自动安装所需依赖（PyMuPDF）；如自动安装失败（离线/受限环境），AI 助手自动降级使用内置文档解析与图像识别能力完成同样任务，流程不中断，用户无感知。
 -   导出 Word（.docx）由 AI 助手自动调用 Word 转换能力完成，用户无感。
